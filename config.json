@@ -1,0 +1,40 @@
+{
+    "meta_pert":{
+        "KnInvPara":{
+            "model": "gpt-4-turbo",
+            "api_key": "{YOUR API KEY}",
+            "n_candidates": 3,
+            "similarity_score": 0.8
+        },
+        "OptionPerm":{
+            "permutation_map": "{0:3,1:2,2:1,3:0}"
+        },
+        "OptionForm":{
+            "method": "add_right_parenthesis"
+        },
+        "OptionCaesar":{
+            "delta": 15
+        },
+        "ChangeType":{},
+        "SwapPos":{}
+    },
+    "meta_llm_apis":{
+        "openai_key": "{YOUR API KEY}",
+        "qwen_key": "{YOUR API KEY}",
+        "glm_key": "{YOUR API KEY}",
+        "gemini_key": "{YOUR API KEY}"
+    },
+    "pert":{
+        "perturbation": ["ChangeType", "OptionCaesar", "OptionPerm", "OptionForm", "KnInvPara", "SwapPos"]
+    },
+    "eval":{
+        "n_thread": 1,
+        "temperature": 0.2,
+        "subjects": ["college_mathematics_test", "high_school_world_history_test", "professional_psychology_test", "professional_medicine_test"]
+    },
+    "ki_scoring":{
+        "model": "gpt-4-turbo",
+        "subjects": ["college_mathematics_test", "high_school_world_history_test", "professional_psychology_test", "professional_medicine_test"],
+        "sampling_gap": 10
+    }
+}
