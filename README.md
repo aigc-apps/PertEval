@@ -1,8 +1,11 @@
 # PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant Perturbations
 
-## Introduction
+![An overview of PertEval.](pic/perteval-framework.png)
 
-PertEval is a toolkit devised for in-depth probing of large language models' (LLMs') knowledge capacity  through **knowledge-invariant perturbations**. **It can be applied to any close-ended benchmark consisting of multiple-choice questions, such as [MMLU](https://github.com/hendrycks/test) and [AGIEval](https://github.com/ruixiangcui/AGIEval).** The official code of PertEval consists of the following modules:
+## What is PertEval?
+
+PertEval is a toolkit devised for in-depth probing of large language models' (LLMs') knowledge capacity  through **knowledge-invariant perturbations**. **It can be applied to any close-ended benchmark consisting of multiple-choice questions, such as [MMLU](https://github.com/hendrycks/test) and [AGIEval](https://github.com/ruixiangcui/AGIEval).** 
+The code of PertEval consists of the following modules:
 
 |File/Path|Description|
 |:---|:---|
@@ -60,6 +63,12 @@ PertEval is a toolkit devised for in-depth probing of large language models' (LL
 ![](pic/rp-gpt-4.png)
 
 ![](pic/rp-gemini-1.0.png)
+
+![](pic/rp-glm-3.png)
+
+![](pic/rp-llama-3.png)
+
+![](pic/rp-mistral.png)
 
 - For more details, please refer to the PertEval paper.
 
