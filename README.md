@@ -139,7 +139,7 @@ python run.py --action analysis --log_original './log/mmlu_test_gemini-1.0-pro_h
 
 ## Citation
 ```bibtex
-@article{li2024perteval,
+@inproceedings{li2024perteval,
   author       = {Jiatong Li and
                   Renjun Hu and
                   Kunzhe Huang and
@@ -150,9 +150,7 @@ python run.py --action analysis --log_original './log/mmlu_test_gemini-1.0-pro_h
                   Wei Lin},
   title        = {PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant
                   Perturbations},
-  journal      = {CoRR},
-  volume       = {abs/2405.19740},
-  year         = {2024},
-  doi          = {10.48550/ARXIV.2405.19740},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2024}
 }
 ```
